@@ -1,0 +1,2287 @@
+Unity Editor version:    6000.0.39f1 (15ea7ed0b100)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.4 (Build 24E248)
+Darwin version:          24.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/karimkhaled/Downloads/6000.0.39f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/karimkhaled/Downloads/xtromera
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51981
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /Users/karimkhaled/Downloads/xtromera
+/Users/karimkhaled/Downloads/xtromera
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704276990784]  Target information:
+
+Player connection [140704276990784]  * "[IP] 192.168.100.125 [Port] 0 [Flags] 2 [Guid] 3532547852 [EditorId] 3532547852 [Version] 1048832 [Id] OSXEditor(0,Sarah-Khaled.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704276990784] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704276990784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 8.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
+[Subsystems] Discovering subsystems at path /Users/karimkhaled/Downloads/6000.0.39f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/karimkhaled/Downloads/xtromera/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Users/karimkhaled/Downloads/6000.0.39f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/karimkhaled/Downloads/6000.0.39f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/karimkhaled/Downloads/6000.0.39f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56299
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/karimkhaled/Downloads/6000.0.39f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/karimkhaled/Downloads/6000.0.39f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Users/karimkhaled/Downloads/6000.0.39f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Users/karimkhaled/Downloads/6000.0.39f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.012257 seconds.
+- Loaded All Assemblies, in  0.906 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+2025-04-17 16:29:04.960 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 221 ms
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.543 seconds
+Domain Reload Profiling: 2449ms
+	BeginReloadAssembly (323ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (320ms)
+				TypeCache.ScanAssembly (293ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1544ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (551ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (639ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.208 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 16:29:10.047 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.100 seconds
+Domain Reload Profiling: 4297ms
+	BeginReloadAssembly (342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1636ms)
+		LoadAssemblies (953ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (847ms)
+			TypeCache.Refresh (669ms)
+				TypeCache.ScanAssembly (613ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (2101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1651ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (328ms)
+			ProcessInitializeOnLoadAttributes (1004ms)
+			ProcessInitializeOnLoadMethodAttributes (252ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Users/karimkhaled/Downloads/6000.0.39f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.34 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6725 unused Assets / (8.5 MB). Loaded Objects now: 7426.
+Memory consumption went from 164.6 MB to 156.1 MB.
+Total: 59.850151 ms (FindLiveObjects: 14.116905 ms CreateObjectMapping: 1.450069 ms MarkObjects: 27.717430 ms  DeleteObjects: 16.563856 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29559.557411 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9975951be927baf08753fed753e8ea86') in 0.370448699 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.103 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 16:33:49.883 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.842 seconds
+Domain Reload Profiling: 3954ms
+	BeginReloadAssembly (768ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (282ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1186ms)
+		LoadAssemblies (968ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (493ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (427ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (1844ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (913ms)
+			ProcessInitializeOnLoadMethodAttributes (217ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6725 unused Assets / (8.1 MB). Loaded Objects now: 7443.
+Memory consumption went from 153.1 MB to 145.0 MB.
+Total: 38.968410 ms (FindLiveObjects: 2.214776 ms CreateObjectMapping: 3.021476 ms MarkObjects: 24.327708 ms  DeleteObjects: 9.402555 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 102.522583 seconds.
+  path: Assets/Markers/Marker-1.jpeg
+  artifactKey: Guid(9c42b43d063144a8e9f6bc71972dff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Markers/Marker-1.jpeg using Guid(9c42b43d063144a8e9f6bc71972dff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e7e140a9d2e275998fd3af193db733c2') in 0.324576405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.726839 seconds.
+  path: Assets/Scripts/CharacterScript.cs
+  artifactKey: Guid(060ecada756f34dc8a40a126be62c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterScript.cs using Guid(060ecada756f34dc8a40a126be62c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26bdf541e60e3551a0978ac8070ba958') in 0.007365727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.034296 seconds.
+  path: Assets/Animations/KombiAnimations/busAnimatior.controller
+  artifactKey: Guid(0261c09c1f8ff46e198fc0533e63ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/KombiAnimations/busAnimatior.controller using Guid(0261c09c1f8ff46e198fc0533e63ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5713c09dee1f1d1180d3c6c7dcc637d') in 0.046347099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.688594 seconds.
+  path: Assets/Animations/KombiAnimations/KombiReactingAnimation.anim
+  artifactKey: Guid(ff1c422b29d1a4151b303ba8e5d3adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/KombiAnimations/KombiReactingAnimation.anim using Guid(ff1c422b29d1a4151b303ba8e5d3adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbb57d666ac7590d77ce8694030a99c5') in 0.007756573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596472 seconds.
+  path: Assets/Animations/KombiAnimations/KombiIdleAnimation.anim
+  artifactKey: Guid(80e2ce2858d774ddfb109f73c35a6563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/KombiAnimations/KombiIdleAnimation.anim using Guid(80e2ce2858d774ddfb109f73c35a6563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5caa0588671a1a755fddaa319a9433f6') in 0.007016638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (3.8 MB). Loaded Objects now: 7445.
+Memory consumption went from 136.7 MB to 132.9 MB.
+Total: 96.186347 ms (FindLiveObjects: 1.545705 ms CreateObjectMapping: 0.440421 ms MarkObjects: 91.117162 ms  DeleteObjects: 3.081559 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 311.970273 seconds.
+  path: Assets/Markers/paris1.png
+  artifactKey: Guid(e1480e9fdfaba4f2590749727728500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Markers/paris1.png using Guid(e1480e9fdfaba4f2590749727728500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '694a59cdb03c56c9fa996e33c3f5d861') in 0.055844385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.547903 seconds.
+  path: Assets/Markers/pokemon.png
+  artifactKey: Guid(9e7c888eb548b4ecf9cb6877c6449aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Markers/pokemon.png using Guid(9e7c888eb548b4ecf9cb6877c6449aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1d4a6fc52e6ee5e8c9b53fbb18dd05ec') in 0.066843461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.030608 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1262fed8b80e535778b77e81e621c15') in 0.174180189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.764412 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8814c9fb85a831703e9744114fd2f5e9') in 0.019368591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 541.337603 seconds.
+  path: Assets/Prefabs/uploads-files-5039828-Flower.fbx
+  artifactKey: Guid(d37fb8956de9348a4b33ab6bd1d82937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads-files-5039828-Flower.fbx using Guid(d37fb8956de9348a4b33ab6bd1d82937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c39c2c9be9d9f8e1198f35b4cff07d5') in 2.565129465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.240063 seconds.
+  path: Assets/Prefabs/pikachu+slowpoke.fbx
+  artifactKey: Guid(a03d282b585b04adea53a8272f2c049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pikachu+slowpoke.fbx using Guid(a03d282b585b04adea53a8272f2c049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dda5e9bb1b04cd6ce5e4de5e5d42535') in 0.308800431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.978302 seconds.
+  path: Assets/Prefabs/Pokemon XY-3
+  artifactKey: Guid(1ca01ae0d11614cfab1c025b9da06b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3 using Guid(1ca01ae0d11614cfab1c025b9da06b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04cab28c0abad1f7735289c7b15c015b') in 0.011454435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.293029 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu
+  artifactKey: Guid(90658bd4b038f42b5abf4ad1f4ae12f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu using Guid(90658bd4b038f42b5abf4ad1f4ae12f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd035a0f0f757cb62a37c401aa75f9fc') in 0.003042335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042578 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/PikachuF.FBX
+  artifactKey: Guid(e4f1c0f0d07144c28962919c01c8a5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/PikachuF.FBX using Guid(e4f1c0f0d07144c28962919c01c8a5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fa022de5bc33649fc64325a0e76170b3') in 0.449677002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/PikachuM_ColladaMax.DAE
+  artifactKey: Guid(e63423693d59f4126a80a9f0ae3a5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/PikachuM_ColladaMax.DAE using Guid(e63423693d59f4126a80a9f0ae3a5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '97e75fa19401ce9dd367fe6a6b4c8a3d') in 0.28524573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/PikachuM.FBX
+  artifactKey: Guid(e1cffb074fe9e46e29b5d46db1113fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/PikachuM.FBX using Guid(e1cffb074fe9e46e29b5d46db1113fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fad70d5d25f20695660f21ec04742608') in 0.109229967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.812588 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon
+  artifactKey: Guid(55ae125b1b3cd404ca50f26ce3995e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon using Guid(55ae125b1b3cd404ca50f26ce3995e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a92d35ed09b702912a65d9d764d6f088') in 0.010374784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.358206 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source
+  artifactKey: Guid(160584a644e6a433bb3bbcd27ba3b16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source using Guid(160584a644e6a433bb3bbcd27ba3b16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b5acd5a1d5efcc86998fe7ae3b0f081') in 0.002079246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063936 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/pokedex 3d pro jolteon.fbx
+  artifactKey: Guid(fcb7900573d0c40deba54a2c12256508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/pokedex 3d pro jolteon.fbx using Guid(fcb7900573d0c40deba54a2c12256508) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f5bb85664f907186f629f75a64f1d81e') in 0.240981929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 188
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.681913 seconds.
+  path: Assets/Models
+  artifactKey: Guid(2e86a625b243f42e7b2014e1826b5edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(2e86a625b243f42e7b2014e1826b5edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53f601da6827563ad8aa708a12427c22') in 0.008179418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.186198 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/Jolt.controller
+  artifactKey: Guid(17850257bd05c45608c31ede7ea2602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/Jolt.controller using Guid(17850257bd05c45608c31ede7ea2602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc8ea17caa8fa4cc081f7ff100543b0c') in 0.019942258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.735386 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/pokedex 3d pro jolteon.fbx
+  artifactKey: Guid(fcb7900573d0c40deba54a2c12256508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/pokedex 3d pro jolteon.fbx using Guid(fcb7900573d0c40deba54a2c12256508) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '802d754f484274b373a901e01e489a55') in 0.241873869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 188
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6716 unused Assets / (7.5 MB). Loaded Objects now: 7631.
+Memory consumption went from 165.1 MB to 157.6 MB.
+Total: 118.083199 ms (FindLiveObjects: 2.084765 ms CreateObjectMapping: 1.652530 ms MarkObjects: 105.121824 ms  DeleteObjects: 9.221467 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.706 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 17:00:11.472 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.412 seconds
+Domain Reload Profiling: 5128ms
+	BeginReloadAssembly (985ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (143ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (363ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1563ms)
+		LoadAssemblies (1128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (748ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (628ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (2413ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (343ms)
+			ProcessInitializeOnLoadAttributes (1112ms)
+			ProcessInitializeOnLoadMethodAttributes (224ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6726 unused Assets / (7.9 MB). Loaded Objects now: 7517.
+Memory consumption went from 168.9 MB to 160.9 MB.
+Total: 28.919530 ms (FindLiveObjects: 1.314623 ms CreateObjectMapping: 2.534242 ms MarkObjects: 14.499836 ms  DeleteObjects: 10.568212 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6715 unused Assets / (7.9 MB). Loaded Objects now: 7513.
+Memory consumption went from 155.2 MB to 147.3 MB.
+Total: 26.398070 ms (FindLiveObjects: 1.198170 ms CreateObjectMapping: 1.599462 ms MarkObjects: 16.584742 ms  DeleteObjects: 6.998367 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 73.636187 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/joltScript.cs
+  artifactKey: Guid(496cdaf51a37546169fda2b89e03e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/joltScript.cs using Guid(496cdaf51a37546169fda2b89e03e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '315667df38fb15391f7b3ab24a5448c8') in 0.006541614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.895 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 17:00:48.955 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.063 seconds
+Domain Reload Profiling: 4965ms
+	BeginReloadAssembly (518ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (203ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1230ms)
+		LoadAssemblies (921ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (512ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (437ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (3065ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2180ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (470ms)
+			ProcessInitializeOnLoadAttributes (1385ms)
+			ProcessInitializeOnLoadMethodAttributes (266ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6726 unused Assets / (6.5 MB). Loaded Objects now: 7520.
+Memory consumption went from 162.3 MB to 155.9 MB.
+Total: 49.785231 ms (FindLiveObjects: 16.952194 ms CreateObjectMapping: 3.733076 ms MarkObjects: 16.417594 ms  DeleteObjects: 12.680333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6715 unused Assets / (6.7 MB). Loaded Objects now: 7516.
+Memory consumption went from 153.8 MB to 147.1 MB.
+Total: 114.527280 ms (FindLiveObjects: 3.234539 ms CreateObjectMapping: 2.071167 ms MarkObjects: 101.357123 ms  DeleteObjects: 7.862402 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 70.737046 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/joltScript.cs
+  artifactKey: Guid(496cdaf51a37546169fda2b89e03e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/joltScript.cs using Guid(496cdaf51a37546169fda2b89e03e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc985d4466bc4bcb93462493ab458368') in 0.015212802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.005 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 17:03:06.321 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.736 seconds
+Domain Reload Profiling: 3747ms
+	BeginReloadAssembly (718ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (39ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (302ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1132ms)
+		LoadAssemblies (877ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (503ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (440ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (238ms)
+			ProcessInitializeOnLoadAttributes (795ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6726 unused Assets / (7.1 MB). Loaded Objects now: 7523.
+Memory consumption went from 160.6 MB to 153.5 MB.
+Total: 35.363502 ms (FindLiveObjects: 3.533551 ms CreateObjectMapping: 2.549289 ms MarkObjects: 17.109362 ms  DeleteObjects: 12.168760 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.972265 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/joltScript.cs
+  artifactKey: Guid(496cdaf51a37546169fda2b89e03e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/joltScript.cs using Guid(496cdaf51a37546169fda2b89e03e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9cc6065620e17c61166ab94fe5b0366') in 0.00392349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.373935 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd218d6be2cfc027424714eea1cbf6b5c') in 1.639438847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.825698 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4778f152d823c0ffaa0980934d5ba98f') in 0.057315559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.842643 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5b87c623903951ff692b9e2ee82b591e') in 0.038382618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.768847 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f055d048d5401047264f0948e032cb0f') in 0.173396085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.086 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 17:07:25.369 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.371 seconds
+Domain Reload Profiling: 3463ms
+	BeginReloadAssembly (664ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (111ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (297ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (1277ms)
+		LoadAssemblies (918ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (493ms)
+			TypeCache.Refresh (38ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (418ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1372ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (983ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (613ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6725 unused Assets / (6.7 MB). Loaded Objects now: 7549.
+Memory consumption went from 165.0 MB to 158.3 MB.
+Total: 19.194026 ms (FindLiveObjects: 1.306187 ms CreateObjectMapping: 1.349035 ms MarkObjects: 9.306619 ms  DeleteObjects: 7.230616 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Import Request.
+  Time since last request: 87.467425 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca56c2339b989671cdf31ad2104458df') in 0.098302848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.601801 seconds.
+  path: Assets/Scripts/ImageTracking.cs
+  artifactKey: Guid(9bc3b2b504170451c9f09e755a3f923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ImageTracking.cs using Guid(9bc3b2b504170451c9f09e755a3f923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d87ad168a9817446aa89ce751b2b83f') in 0.001558698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.877 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 17:09:47.628 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.536 seconds
+Domain Reload Profiling: 3421ms
+	BeginReloadAssembly (545ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (241ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (1208ms)
+		LoadAssemblies (715ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (633ms)
+			TypeCache.Refresh (50ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (517ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (1537ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1131ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (247ms)
+			ProcessInitializeOnLoadAttributes (704ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6724 unused Assets / (7.8 MB). Loaded Objects now: 7552.
+Memory consumption went from 164.2 MB to 156.5 MB.
+Total: 16.294228 ms (FindLiveObjects: 0.972365 ms CreateObjectMapping: 1.584669 ms MarkObjects: 8.089888 ms  DeleteObjects: 5.645799 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 118.598742 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e7da1958c973262c3872da80dc2a97fb') in 0.939426151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.868715 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/Jolt.controller
+  artifactKey: Guid(17850257bd05c45608c31ede7ea2602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/Jolt.controller using Guid(17850257bd05c45608c31ede7ea2602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90b86663d2f9161cd1429faaae4ee0da') in 0.009995289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.808 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 17:10:52.432 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.432 seconds
+Domain Reload Profiling: 3246ms
+	BeginReloadAssembly (516ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (68ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (246ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1065ms)
+		LoadAssemblies (659ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (514ms)
+			TypeCache.Refresh (43ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (431ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (991ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (626ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6725 unused Assets / (8.2 MB). Loaded Objects now: 7575.
+Memory consumption went from 168.6 MB to 160.4 MB.
+Total: 16.514356 ms (FindLiveObjects: 0.910671 ms CreateObjectMapping: 1.190428 ms MarkObjects: 7.658992 ms  DeleteObjects: 6.753150 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.568262 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '788090775ce2e6933648df041c07b1a4') in 0.956684802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.484 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 17:11:31.618 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.837 seconds
+Domain Reload Profiling: 3326ms
+	BeginReloadAssembly (417ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (186ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (929ms)
+		LoadAssemblies (639ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (411ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (356ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (301ms)
+			ProcessInitializeOnLoadAttributes (818ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6725 unused Assets / (7.9 MB). Loaded Objects now: 7598.
+Memory consumption went from 172.7 MB to 164.8 MB.
+Total: 20.519450 ms (FindLiveObjects: 1.319042 ms CreateObjectMapping: 1.886287 ms MarkObjects: 9.432210 ms  DeleteObjects: 7.880635 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.360712 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4de76aaf68b48aa2c422eb3d5e7f09f4') in 1.153600089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.897488 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '35c09919f67860ce8de2bed42ee37338') in 0.059321273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 1210.744166 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e5185c77b8b7ecb9036be626656d1f69') in 0.535843253 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.296767 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '661bc0d4b73cc25abf57061843ab0325') in 0.104323117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.724812 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5fdb7aa0260b0a3ecf6a3c9f641f6124') in 0.231685021 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.522416 seconds.
+  path: Assets/Prefabs/pokemon.prefab
+  artifactKey: Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pokemon.prefab using Guid(cc6e7bbf282004f58abe123dfddd2a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '199c8d033c9dc0d8689169fc2d0e5935') in 0.247390993 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 378
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.997391 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cc6da805b82c3e8768a6feb149fbd89') in 1.014247234 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.057863 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyA1.png
+  artifactKey: Guid(0cae3f6a47b3847e5ac743a969a0cc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyA1.png using Guid(0cae3f6a47b3847e5ac743a969a0cc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '914aaea65130ba565aa77a376c6301a1') in 0.27856958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyBNor.png
+  artifactKey: Guid(478ca9f2e668d4a7d8299eb308d8498b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyBNor.png using Guid(478ca9f2e668d4a7d8299eb308d8498b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4a166d49ad537320ed0fb30e30494665') in 0.025311664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyA1Id_F.png
+  artifactKey: Guid(c9a2563e68771479cba26054bf41e97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyA1Id_F.png using Guid(c9a2563e68771479cba26054bf41e97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c0bb9000e1083c4d487d6eecaff1dcdc') in 0.024051764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyBNor_Alpha.png
+  artifactKey: Guid(fba613d0f5f724b76af8ba9a62bf62ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyBNor_Alpha.png using Guid(fba613d0f5f724b76af8ba9a62bf62ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'aa9d1e0d911d0841fdf2964aaa00ebf4') in 0.020586953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyANor_Alpha.png
+  artifactKey: Guid(fd67521d5e7bf44e2837b1b847c78db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyANor_Alpha.png using Guid(fd67521d5e7bf44e2837b1b847c78db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3bc9d9e58f9327e8cc9221ea2dcbb484') in 0.020879424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyA1Id.png
+  artifactKey: Guid(a481fd42d5a1549c5ab107d80102359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyA1Id.png using Guid(a481fd42d5a1549c5ab107d80102359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0c5c00a285694dde2fa8699414629ce2') in 0.018185524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyB1.png
+  artifactKey: Guid(fc40d0140a69b49bd82d5c53caf81836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyB1.png using Guid(fc40d0140a69b49bd82d5c53caf81836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '55059da1ba3c9ec0fa0b924375efe3d6') in 0.018059791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyB1.png
+  artifactKey: Guid(c60eb75697f1142598055d4bb791428c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyB1.png using Guid(c60eb75697f1142598055d4bb791428c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1e9270f014b4070fc233efd0dcbbc682') in 0.012998118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyB1Id.png
+  artifactKey: Guid(c7ea8649ac35049cdbe25fbc42e75151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyB1Id.png using Guid(c7ea8649ac35049cdbe25fbc42e75151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd9de0a2e02dc86fe3b1666214275cdc1') in 0.021571101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyANor.png
+  artifactKey: Guid(6e8fa796151bf435b8e642ab77f1c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyANor.png using Guid(6e8fa796151bf435b8e642ab77f1c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '07e73eb1c0e73f0d435f8b62a995abbf') in 0.018153607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyB1Id.png
+  artifactKey: Guid(7002489cbf05c4f80933fc6bdf570026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyB1Id.png using Guid(7002489cbf05c4f80933fc6bdf570026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd14ce066c0dd8a49e7e6b8b07a8f73ce') in 0.019687067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyBNor_Alpha.png
+  artifactKey: Guid(e2a0e8545e29f46269e1de73449824b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyBNor_Alpha.png using Guid(e2a0e8545e29f46269e1de73449824b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '063088349db92c64c36441bd28daf8f2') in 0.017686696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyANor.png
+  artifactKey: Guid(acbdaff2caf434d8cb8b7342d4302fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyANor.png using Guid(acbdaff2caf434d8cb8b7342d4302fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c034829a833fc9e3a3e351db165a285f') in 0.017431255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyB1Id_F.png
+  artifactKey: Guid(bfe7f06e9ab7f464ba802d3c9a2bb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyB1Id_F.png using Guid(bfe7f06e9ab7f464ba802d3c9a2bb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'eef51587f4875fe6acc6df36d7deae55') in 0.01847859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyANor_Alpha.png
+  artifactKey: Guid(c7145075df8cc4fbe923fbc04ed449a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyANor_Alpha.png using Guid(c7145075df8cc4fbe923fbc04ed449a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '66c077e064a6857a74d192e58e2f064c') in 0.010692162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyBInc.png
+  artifactKey: Guid(4367208b5b27140da980bdfb31b99f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyBInc.png using Guid(4367208b5b27140da980bdfb31b99f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '28b0c13897ec284680bd51efd6a47b13') in 0.012975185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyA1Id_F.png
+  artifactKey: Guid(5fe7ef9e511ee4d519eb48fc18c5b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images/pm0025_00_BodyA1Id_F.png using Guid(5fe7ef9e511ee4d519eb48fc18c5b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fc69f4a9a68022fdc3dd4fb4e5207dd4') in 0.012816827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyBNor.png
+  artifactKey: Guid(e38453a27cc0c477e8247f3968b56b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/images_shiny/pm0025_00_BodyBNor.png using Guid(e38453a27cc0c477e8247f3968b56b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '244254e545a3e33ec883f4b2f1c18e61') in 0.013722316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.663114 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(ae15a9f1215a7452aa7715c46cd96c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba783e6a8b15795edacc7435f87ec2ff') in 0.259454572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.551 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:03:46.978 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.607 seconds
+Domain Reload Profiling: 4165ms
+	BeginReloadAssembly (1175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (293ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (454ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (1242ms)
+		LoadAssemblies (884ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (555ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (457ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1065ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (650ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6728 unused Assets / (8.3 MB). Loaded Objects now: 7621.
+Memory consumption went from 176.7 MB to 168.4 MB.
+Total: 16.249168 ms (FindLiveObjects: 1.016030 ms CreateObjectMapping: 1.100371 ms MarkObjects: 7.927491 ms  DeleteObjects: 6.204096 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 335.651822 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Prefabs
+  artifactKey: Guid(f2dc339b50dc6364d9a932a54789aed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Prefabs using Guid(f2dc339b50dc6364d9a932a54789aed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58a54bba9b9ea261241458d3fc199da0') in 0.004881914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/ChocolateCake.prefab
+  artifactKey: Guid(f24f8d870c79ec94faf33cf23503cea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/ChocolateCake.prefab using Guid(f24f8d870c79ec94faf33cf23503cea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd8c5f37386bdac6ff23eaba380aa91eb') in 0.948842023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/LittleSquirrel_Crying.prefab
+  artifactKey: Guid(00339b6fa647896439469725149f1625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/LittleSquirrel_Crying.prefab using Guid(00339b6fa647896439469725149f1625) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6b2fe8bb62f89cee9ae72409f0a06c9f') in 0.203007363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/LittleSquirrel_Happy.prefab
+  artifactKey: Guid(252d84e2d6dc6604e91321bc2d912fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/LittleSquirrel_Happy.prefab using Guid(252d84e2d6dc6604e91321bc2d912fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '12050fca0bc1fcb596ec014cc59a0252') in 0.141374191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/LittleCat_Crying.prefab
+  artifactKey: Guid(a0b1c0afd0c1fa446b01fef3488c1240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/LittleCat_Crying.prefab using Guid(a0b1c0afd0c1fa446b01fef3488c1240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4b420fd1be612b98d48bceb4079a5748') in 0.14116775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/LittleSquirrel_Idle.prefab
+  artifactKey: Guid(57d7e51b2b6b367478cafc1b195081b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Prefabs/LittleSquirrel_Idle.prefab using Guid(57d7e51b2b6b367478cafc1b195081b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c84be3232fa0dfd69a6af6635ea55868') in 0.155287427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.999840 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures
+  artifactKey: Guid(3fc571c6fbf978d44b777aa93836a2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures using Guid(3fc571c6fbf978d44b777aa93836a2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20311bc2929d4fda5338bdf9185c00f1') in 0.005352335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101512 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures/Cat_Body_Angry.png
+  artifactKey: Guid(ab9a7361c04ef844f845fe3866a15ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures/Cat_Body_Angry.png using Guid(ab9a7361c04ef844f845fe3866a15ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fbdaaf12544c94392df1d2dd61c881d5') in 0.066886894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures/StrawberrySpongeCake.png
+  artifactKey: Guid(88335215f2479bc4fad248dc56c03509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures/StrawberrySpongeCake.png using Guid(88335215f2479bc4fad248dc56c03509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2e1ff9ff201293226167e0b43f9c25fd') in 0.047126303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures/Squirrel_Ears.png
+  artifactKey: Guid(72bc6a449fff0de42bf1777a03504a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures/Squirrel_Ears.png using Guid(72bc6a449fff0de42bf1777a03504a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f3114755d3a28967794d64cda3445508') in 0.023130317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures/Cat_EyelidsTail.png
+  artifactKey: Guid(4f92bf19e3003f841b4f9041ddfdc8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures/Cat_EyelidsTail.png using Guid(4f92bf19e3003f841b4f9041ddfdc8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4f392e2133c32be4179b3db0b108bf4b') in 0.024397813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures/Cat_Body_Happy.png
+  artifactKey: Guid(2196754158dc6244eb0e17fe54ce3de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures/Cat_Body_Happy.png using Guid(2196754158dc6244eb0e17fe54ce3de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0c98443618fe27911ef5a4958e793160') in 0.023632884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures/Squirrel_Body_Crying.png
+  artifactKey: Guid(3d522fa1054bc204b95977346803335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures/Squirrel_Body_Crying.png using Guid(3d522fa1054bc204b95977346803335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '81ad8cdced354c8e40906deada4f7b1b') in 0.029642622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures/Eyebrows.png
+  artifactKey: Guid(898266f68a3fcd141acb6a51d74b1a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures/Eyebrows.png using Guid(898266f68a3fcd141acb6a51d74b1a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'de001a333bf1010423293cd5fd07362c') in 0.025109293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Textures/Squirrel_EyelidsTail.png
+  artifactKey: Guid(f6e636c916b24544682d8bfc34fe973a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Textures/Squirrel_EyelidsTail.png using Guid(f6e636c916b24544682d8bfc34fe973a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1aac6e8ba9e3f9801bf4b4baebdb6916') in 0.025547414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.137166 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Meshes
+  artifactKey: Guid(6c0fdf171946b3d4a8ae2710a6569d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Meshes using Guid(6c0fdf171946b3d4a8ae2710a6569d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd299b93100b5286021a3fb193c008497') in 0.004288724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197424 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials
+  artifactKey: Guid(4104ef6445dabeb4d9c8cdba8b34fe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials using Guid(4104ef6445dabeb4d9c8cdba8b34fe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a362213bab3c2ddd0d8cec8850720a7') in 0.0007218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085263 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials/Cat_Body_Angry.mat
+  artifactKey: Guid(74869a5089ce32d49b9dc8bbdf55f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials/Cat_Body_Angry.mat using Guid(74869a5089ce32d49b9dc8bbdf55f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c5af4fba46317c3c115f57681895cd59') in 0.068336267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials/Squirrel_EyelidsTail.mat
+  artifactKey: Guid(33dc77d6e55904f43b223ab09e2b87fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials/Squirrel_EyelidsTail.mat using Guid(33dc77d6e55904f43b223ab09e2b87fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8db23fab82e988f02dd8ef0bf08979b2') in 0.035779257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials/StrawberrySpongeCake.mat
+  artifactKey: Guid(4df334ce5405b9b459bf0d7335dc9240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials/StrawberrySpongeCake.mat using Guid(4df334ce5405b9b459bf0d7335dc9240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '16c83c5fcac520a2a1d9c8c72212b0e1') in 0.064711918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials/ChocolateCake.mat
+  artifactKey: Guid(9e56b762fc69968488dbd6969e493dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials/ChocolateCake.mat using Guid(9e56b762fc69968488dbd6969e493dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '58101cf0e5df560a0a9a986926ad7f17') in 0.063686713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials/Squirrel_Body_Happy.mat
+  artifactKey: Guid(6f846c86720bb9f4eaa562634a74aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials/Squirrel_Body_Happy.mat using Guid(6f846c86720bb9f4eaa562634a74aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b279ad8276935fccbcb25b02968fa413') in 0.038449496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials/Squirrel_Body_Idle.mat
+  artifactKey: Guid(a02ebf90ddb83db41961bcf27a13d084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials/Squirrel_Body_Idle.mat using Guid(a02ebf90ddb83db41961bcf27a13d084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd12d19df8ab6eb32f1c91e52e16b74f8') in 0.027650268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials/Cat_EyelidsTail.mat
+  artifactKey: Guid(44722e5b469a26147b3a5c497b7f24b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials/Cat_EyelidsTail.mat using Guid(44722e5b469a26147b3a5c497b7f24b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '76a3df4ab6096970532194cabaa56fba') in 0.037138479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Materials/Squirrel_Body_Crying.mat
+  artifactKey: Guid(c0cbc9b04f0da234b946a2081c9416b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Materials/Squirrel_Body_Crying.mat using Guid(c0cbc9b04f0da234b946a2081c9416b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b40509350c0a0839c310fa373db1abb8') in 0.049251448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6715 unused Assets / (8.1 MB). Loaded Objects now: 7757.
+Memory consumption went from 178.1 MB to 170.0 MB.
+Total: 67.495817 ms (FindLiveObjects: 1.103437 ms CreateObjectMapping: 1.153619 ms MarkObjects: 56.606616 ms  DeleteObjects: 8.630739 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.762 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:05:07.657 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.726 seconds
+Domain Reload Profiling: 4496ms
+	BeginReloadAssembly (834ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (87ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (357ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1774ms)
+		LoadAssemblies (1188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (862ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (776ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (1726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (760ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6726 unused Assets / (7.9 MB). Loaded Objects now: 7643.
+Memory consumption went from 181.2 MB to 173.2 MB.
+Total: 18.941603 ms (FindLiveObjects: 1.196852 ms CreateObjectMapping: 1.459200 ms MarkObjects: 9.195945 ms  DeleteObjects: 7.088061 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.167 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:22:20.689 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.538 seconds
+Domain Reload Profiling: 3711ms
+	BeginReloadAssembly (931ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (72ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (394ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1087ms)
+		LoadAssemblies (938ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (355ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1539ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (722ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6727 unused Assets / (8.1 MB). Loaded Objects now: 7647.
+Memory consumption went from 181.1 MB to 173.1 MB.
+Total: 16.838432 ms (FindLiveObjects: 0.951723 ms CreateObjectMapping: 1.209992 ms MarkObjects: 8.365412 ms  DeleteObjects: 6.310073 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1100.496198 seconds.
+  path: Assets/Rabbits/Prefabs
+  artifactKey: Guid(ffb54f96503b07047bbb82d52b28553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rabbits/Prefabs using Guid(ffb54f96503b07047bbb82d52b28553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1113744d661520584efebc9415f2806') in 0.02342814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.412125 seconds.
+  path: Assets/Rabbits/Model
+  artifactKey: Guid(b5e03acb0aab87744849999e50935f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rabbits/Model using Guid(b5e03acb0aab87744849999e50935f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '476b9dc0a994434313db63808dd13a9b') in 0.002240662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126519 seconds.
+  path: Assets/Rabbits/Model/Rabbit.fbx
+  artifactKey: Guid(0962bdca27eaca34aaa15f7fdf608faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rabbits/Model/Rabbit.fbx using Guid(0962bdca27eaca34aaa15f7fdf608faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '17b1b6a4e6991cc14fd3483dfde7b802') in 1.475891379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6715 unused Assets / (7.5 MB). Loaded Objects now: 7783.
+Memory consumption went from 182.3 MB to 174.8 MB.
+Total: 36.797725 ms (FindLiveObjects: 1.521211 ms CreateObjectMapping: 1.249707 ms MarkObjects: 28.180226 ms  DeleteObjects: 5.845024 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.544 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:23:28.653 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.419 seconds
+Domain Reload Profiling: 2967ms
+	BeginReloadAssembly (475ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (66ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (205ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (953ms)
+		LoadAssemblies (693ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (384ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (331ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1054ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (705ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6726 unused Assets / (7.9 MB). Loaded Objects now: 7669.
+Memory consumption went from 185.3 MB to 177.5 MB.
+Total: 17.458560 ms (FindLiveObjects: 1.241705 ms CreateObjectMapping: 1.541819 ms MarkObjects: 7.871276 ms  DeleteObjects: 6.802434 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 139.907685 seconds.
+  path: Assets/uploads-files-5037300-эйфел.fbx
+  artifactKey: Guid(588f8832824594b5e801da7145c03ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uploads-files-5037300-эйфел.fbx using Guid(588f8832824594b5e801da7145c03ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef07d62a7f049f2988f6042c4cdafcbc') in 2.156751849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.889327 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.001367785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.798895 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '393b70993d0f992d5588768ff8f17a91') in 0.001037549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.195562 seconds.
+  path: Assets/XR/Loaders/ARCoreLoader.asset
+  artifactKey: Guid(5b8142e543e3541cb925ebab88d23612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/ARCoreLoader.asset using Guid(5b8142e543e3541cb925ebab88d23612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c324fe5a7d1b7058d38a21703ff9c34c') in 0.000974846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.775018 seconds.
+  path: Assets/ltt.mat
+  artifactKey: Guid(fa71b4454833d447c8fb36da6a22cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ltt.mat using Guid(fa71b4454833d447c8fb36da6a22cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd78c8e1d14d63e3f7ab319969aa2bb88') in 0.072799329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.661846 seconds.
+  path: Assets/ltt.mat
+  artifactKey: Guid(fa71b4454833d447c8fb36da6a22cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ltt.mat using Guid(fa71b4454833d447c8fb36da6a22cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '502436e9a6af8d99d881bbd60e7566ec') in 0.02889422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.017632 seconds.
+  path: Assets/paris.controller
+  artifactKey: Guid(b862fe004f4d447098b7d8e457e7d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/paris.controller using Guid(b862fe004f4d447098b7d8e457e7d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a33159ad8e12295e48f7623fe65f8f90') in 0.039024937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.260066 seconds.
+  path: Assets/Animations/paris.controller
+  artifactKey: Guid(b862fe004f4d447098b7d8e457e7d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/paris.controller using Guid(b862fe004f4d447098b7d8e457e7d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd2d8a3fbff47a11357a5cfc6c1373eb') in 0.003125919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.342381 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/textures
+  artifactKey: Guid(9f3c53ffbe43b48ad8b5c85f3f19b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/textures using Guid(9f3c53ffbe43b48ad8b5c85f3f19b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1f56f47ac29229e36a3be496fe5d40a') in 0.002434673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/textures/Thunders_bodyCl_ctr.png
+  artifactKey: Guid(1a3ed75200f594c63bd343926ce6ff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/textures/Thunders_bodyCl_ctr.png using Guid(1a3ed75200f594c63bd343926ce6ff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '64c1e70f881761ae07709607d4493a1d') in 0.147084591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6717 unused Assets / (9.2 MB). Loaded Objects now: 7807.
+Memory consumption went from 186.5 MB to 177.4 MB.
+Total: 61.889100 ms (FindLiveObjects: 1.108859 ms CreateObjectMapping: 1.166879 ms MarkObjects: 50.846737 ms  DeleteObjects: 8.765138 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.236789 seconds.
+  path: Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/paris.cs
+  artifactKey: Guid(d2bc1855ed21f443187fcf1ab73920c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemon XY-3/Pikachu/jolteon/source/paris.cs using Guid(d2bc1855ed21f443187fcf1ab73920c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a96babee68a50e8139d2f7e0111e015') in 0.006652619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.724 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:31:07.788 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.251 seconds
+Domain Reload Profiling: 2979ms
+	BeginReloadAssembly (552ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (70ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (233ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (1050ms)
+		LoadAssemblies (792ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (420ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (360ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1252ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (908ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6727 unused Assets / (9.1 MB). Loaded Objects now: 7693.
+Memory consumption went from 189.3 MB to 180.3 MB.
+Total: 18.419700 ms (FindLiveObjects: 0.900495 ms CreateObjectMapping: 1.108645 ms MarkObjects: 6.414773 ms  DeleteObjects: 9.994655 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6716 unused Assets / (9.2 MB). Loaded Objects now: 7689.
+Memory consumption went from 182.9 MB to 173.7 MB.
+Total: 72.297366 ms (FindLiveObjects: 1.819869 ms CreateObjectMapping: 1.770576 ms MarkObjects: 53.784219 ms  DeleteObjects: 14.920923 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 64.182866 seconds.
+  path: Assets/Animations/KombiAnimations/paris.controller
+  artifactKey: Guid(b862fe004f4d447098b7d8e457e7d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/KombiAnimations/paris.controller using Guid(b862fe004f4d447098b7d8e457e7d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ea397672028bb19d66b8a63da7a8afe') in 0.097189015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.856 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:32:28.368 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.712 seconds
+Domain Reload Profiling: 3573ms
+	BeginReloadAssembly (528ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (232ms)
+	RebuildCommonClasses (157ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (1098ms)
+		LoadAssemblies (840ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (458ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (394ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1713ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (955ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6727 unused Assets / (9.3 MB). Loaded Objects now: 7696.
+Memory consumption went from 189.1 MB to 179.9 MB.
+Total: 19.694051 ms (FindLiveObjects: 1.288050 ms CreateObjectMapping: 1.457893 ms MarkObjects: 9.164702 ms  DeleteObjects: 7.781681 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6716 unused Assets / (9.2 MB). Loaded Objects now: 7692.
+Memory consumption went from 182.9 MB to 173.7 MB.
+Total: 25.894306 ms (FindLiveObjects: 1.254289 ms CreateObjectMapping: 1.384904 ms MarkObjects: 11.418186 ms  DeleteObjects: 11.835307 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.323 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:33:20.166 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.286 seconds
+Domain Reload Profiling: 2615ms
+	BeginReloadAssembly (414ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (187ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (792ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (340ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1287ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (936ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (610ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6727 unused Assets / (9.4 MB). Loaded Objects now: 7699.
+Memory consumption went from 189.0 MB to 179.6 MB.
+Total: 28.531750 ms (FindLiveObjects: 1.192328 ms CreateObjectMapping: 1.244799 ms MarkObjects: 8.138254 ms  DeleteObjects: 17.955063 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 85.392766 seconds.
+  path: Assets/Prefabs/Paris.prefab
+  artifactKey: Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Paris.prefab using Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '788f03d8578d40b2ada3cad02325b808') in 0.808086899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.961604 seconds.
+  path: Assets/Prefabs/paris1.prefab
+  artifactKey: Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/paris1.prefab using Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cc53854f57e1199750c8fd0b81fd490') in 0.104550723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.426525 seconds.
+  path: Assets/Prefabs/paris1.prefab
+  artifactKey: Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/paris1.prefab using Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98d59415082fcd9395fb82941da38d95') in 0.078801883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.073 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:38:05.510 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.559 seconds
+Domain Reload Profiling: 4640ms
+	BeginReloadAssembly (1488ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (377ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (697ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1412ms)
+		LoadAssemblies (977ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (653ms)
+			TypeCache.Refresh (46ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (560ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1124ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (708ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6728 unused Assets / (9.1 MB). Loaded Objects now: 7722.
+Memory consumption went from 193.9 MB to 184.8 MB.
+Total: 25.034748 ms (FindLiveObjects: 0.993645 ms CreateObjectMapping: 1.235897 ms MarkObjects: 8.367881 ms  DeleteObjects: 14.436142 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Import Request.
+  Time since last request: 240.196341 seconds.
+  path: Assets/Prefabs/paris1.prefab
+  artifactKey: Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/paris1.prefab using Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06de64a116a5979b63bc72f64e0980a6') in 1.099460413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (3.7 MB). Loaded Objects now: 7863.
+Memory consumption went from 191.2 MB to 187.5 MB.
+Total: 20.363866 ms (FindLiveObjects: 0.794687 ms CreateObjectMapping: 0.612329 ms MarkObjects: 15.979851 ms  DeleteObjects: 2.975472 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.379 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for iOS target not found
+2025-04-17 18:38:33.744 Unity[9299:502783] [XcodeApplications] Failed to read NSDictionary from path /Applications/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.356 seconds
+Domain Reload Profiling: 2739ms
+	BeginReloadAssembly (352ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (886ms)
+		LoadAssemblies (626ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (324ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1356ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (990ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (607ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6727 unused Assets / (8.6 MB). Loaded Objects now: 7745.
+Memory consumption went from 197.8 MB to 189.2 MB.
+Total: 23.825652 ms (FindLiveObjects: 1.419089 ms CreateObjectMapping: 1.724856 ms MarkObjects: 10.133485 ms  DeleteObjects: 10.546900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.6 MB). Loaded Objects now: 7747.
+Memory consumption went from 187.7 MB to 184.1 MB.
+Total: 16.916975 ms (FindLiveObjects: 1.035432 ms CreateObjectMapping: 0.770477 ms MarkObjects: 12.153735 ms  DeleteObjects: 2.955625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 146.391466 seconds.
+  path: Assets/Prefabs/paris1.prefab
+  artifactKey: Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/paris1.prefab using Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '139e3fb4d1aebb56060e8d5130b1d62e') in 1.696610655 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.385371 seconds.
+  path: Assets/Prefabs/paris1.prefab
+  artifactKey: Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/paris1.prefab using Guid(07c553f49634140eaaa2483049f49540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e62dafcae301164f8e7e3e23dcede8b4') in 0.086596263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Import Request.
+  Time since last request: 1187.532584 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa6a3228f42a80cb3816a343078ea404') in 0.025987085 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.611938 seconds.
+  path: Assets/Scenes/ARFirstScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ARFirstScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b50f90f993dc301ae157c6b2f32984c2') in 0.005388036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

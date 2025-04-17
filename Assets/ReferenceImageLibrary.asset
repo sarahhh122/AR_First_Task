@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5453707730965512153
+  m_GuidHigh: 16744838874032909239
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4990250807797722687
+      m_GuidHigh: 18404862849078913462
+    m_SerializedTextureGuid:
+      m_GuidLow: 4947211000811271229
+      m_GuidHigh: 8574622344008234729
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Marker-1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4938529407419994635
+      m_GuidHigh: 12203448306565657772
+    m_SerializedTextureGuid:
+      m_GuidLow: 2657516693822650333
+      m_GuidHigh: 3206987021101851306
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Marker-2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5299693595690765098
+      m_GuidHigh: 18431351286869530760
+    m_SerializedTextureGuid:
+      m_GuidLow: 13036994344831977614
+      m_GuidHigh: 13446135256665607161
+    m_Size: {x: 0.1, y: 0.13333334}
+    m_SpecifySize: 1
+    m_Name: pokemon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5732738069985843820
+      m_GuidHigh: 6063297801081515187
+    m_SerializedTextureGuid:
+      m_GuidLow: 11885808295896157855
+      m_GuidHigh: 887253620075595609
+    m_Size: {x: 0.1, y: 0.13189656}
+    m_SpecifySize: 1
+    m_Name: paris1
+    m_Texture: {fileID: 0}

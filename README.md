@@ -9,5 +9,4 @@ This marker-based AR app brings static images to life by detecting custom marker
 - **Multi-Marker Support** – Simultaneously tracks multiple images and switches active content based on which marker is visible.  
 - **Model Scaling** – Prefabs are pre-scaled to align with the physical size of each printed marker.  
 - **User Movement** – Physically move around the marker to view the model from different angles, leveraging natural device motion.  
-- **Permission Handling** – Requests camera access on first launch and gracefully recovers if permissions are denied.  
 - **Configuration Recovery** – Detects and remedies common setup issues (e.g., enabling ARCore plugin, reference image library assignments) during development.  

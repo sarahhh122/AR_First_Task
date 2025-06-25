@@ -11,5 +11,3 @@ This marker-based AR app brings static images to life by detecting custom marker
 - **User Movement** – Physically move around the marker to view the model from different angles, leveraging natural device motion.  
 - **Permission Handling** – Requests camera access on first launch and gracefully recovers if permissions are denied.  
 - **Configuration Recovery** – Detects and remedies common setup issues (e.g., enabling ARCore plugin, reference image library assignments) during development.  
-- **Demo Recording** – Easily capture on-device video showcasing marker detection and model instantiation for presentations or reports.  
-```
